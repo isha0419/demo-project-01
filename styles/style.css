@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:#e4f9f9;
+    display: flex;
+    flex-direction: column;    
+      /* align-items: center; */
+    justify-content:space-around;
+    font-family: "Poppins", sans-serif;
+
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    margin: 2px;
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-weight: 700;
+    width:fit-content;
+}
+button:hover{
+    background-color: #ffffff;
+    color:rgb(18, 155, 155);
+    border: 2px solid black;
+}
+header{
+    padding: 15px 0px;
+}
+nav{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-weight: 800;
+    font-size: 25px;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+    
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 700;
+    color: #000000;
+}
+.search{
+    display: flex;
+    gap: 30px;
+}
+.input{
+    padding: 4px 10px;
+}
+.hero_section{
+    display: flex;
+    align-items: center;
+
+}
+.hero_left_section{
+    
+    width: 60%;
+    padding: 0 8%;
+}
+.hero_left_section h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.hero_left_section h1>span{
+    font-size: 50px;
+}
+.hero_left_section span{
+    color:rgb(18, 155, 155) ;
+    font-weight: 700;
+    font-size: 20px;
+}
+.hero_right_section{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.hero_right_section img{
+    height: 300px;
+    width: 300px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer ul li:hover{
+    font-size: larger;
+}
+    
+    
+
